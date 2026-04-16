@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ConIngenio — Consultoría y desarrollo de software. Soluciones digitales integrales para su organización."
+    />
+    <title>ConIngenio | Consultoría y desarrollo de software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=4" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="ConIngenio — inicio">ConIngenio</a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="mainNav"
+          aria-label="Abrir o cerrar menú de navegación"
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav" aria-label="Principal">
+          <ul class="main-nav__list">
+            <li><a class="main-nav__link" href="#home">Home</a></li>
+            <li><a class="main-nav__link" href="#servicios">Nuestros Servicios</a></li>
+            <li><a class="main-nav__link main-nav__link--cta" href="#contacto">Contáctenos</a></li>
+            <li><a class="main-nav__link" href="#nosotros">Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido-principal">
+      <!-- Home -->
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Consultoría &amp; desarrollo de software</p>
+            <h1 id="hero-title">Impulsamos su transformación digital con soluciones a medida</h1>
+            <p class="lead">
+              En <strong>ConIngenio</strong> diseñamos e implementamos experiencias digitales robustas,
+              alineadas a su negocio. Le acompañamos desde la estrategia hasta la evolución continua de
+              sus plataformas.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#servicios">Ver servicios</a>
+              <a class="btn btn--ghost" href="#contacto">Solicitar información</a>
+            </div>
+            <ul class="hero__highlights" aria-label="Servicios destacados">
+              <li>
+                <span class="hero__icon" aria-hidden="true"><i class="bi bi-graph-up-arrow"></i></span>
+                Estrategia y consultoría digital
+              </li>
+              <li>
+                <span class="hero__icon" aria-hidden="true"><i class="bi bi-grid-1x2"></i></span>
+                Experiencias multicanal coherentes
+              </li>
+              <li>
+                <span class="hero__icon" aria-hidden="true"><i class="bi bi-share"></i></span>
+                Ecosistemas tecnológicos evolutivos
+              </li>
+            </ul>
+          </div>
+          <div class="hero__visual">
+            <figure class="hero__figure">
+              <img
+                class="hero__img"
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+                width="900"
+                height="600"
+                alt="Visualización abstracta de redes y tecnología global"
+                loading="eager"
+                decoding="async"
+              />
+              <figcaption class="visually-hidden">Imagen de tecnología y conectividad (Unsplash)</figcaption>
+            </figure>
+            <div class="hero__card card card--elevated" aria-hidden="true">
+              <p class="hero__stat-label">Enfoque</p>
+              <p class="hero__stat-value">360°</p>
+              <p class="hero__stat-hint">Desde la idea al producto en producción</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Servicios -->
+      <section class="section section--alt" id="servicios" aria-labelledby="servicios-title">
+        <div class="container">
+          <header class="section__head">
+            <h2 id="servicios-title">Nuestros servicios</h2>
+            <p class="section__intro">
+              Cuatro líneas de valor para acelerar resultados: claridad en la estrategia, experiencias
+              integradas, plataformas que crecen con usted y entrega ágil con herramientas modernas.
+            </p>
+          </header>
+
+          <div class="services-grid">
+            <article class="service-card card">
+              <h3 class="service-card__title">Consultoría digital</h3>
+              <p class="service-card__text">
+                Alineamos tecnología y negocio: diagnóstico, hoja de ruta, gobierno de datos y
+                priorización de iniciativas para maximizar el retorno de cada inversión.
+              </p>
+              <p class="service-card__benefit">
+                <strong>Beneficio:</strong> decisiones informadas, menos retrabajo y proyectos con
+                objetivos medibles.
+              </p>
+            </article>
+
+            <article class="service-card card">
+              <h3 class="service-card__title">Soluciones multexperiencia</h3>
+              <p class="service-card__text">
+                Diseñamos recorridos coherentes en web, móvil y canales emergentes, con identidad
+                unificada y rendimiento optimizado en cada punto de contacto.
+              </p>
+              <p class="service-card__benefit">
+                <strong>Beneficio:</strong> clientes satisfechos en todos los canales y menor costo
+                de mantenimiento de la experiencia.
+              </p>
+            </article>
+
+            <article class="service-card card">
+              <h3 class="service-card__title">Evolución de ecosistemas</h3>
+              <p class="service-card__text">
+                Modernizamos integraciones, APIs y arquitecturas para que su ecosistema escale con
+                seguridad, observabilidad y despliegues continuos.
+              </p>
+              <p class="service-card__benefit">
+                <strong>Beneficio:</strong> sistemas más estables, tiempo de salida al mercado más
+                corto y riesgo operativo reducido.
+              </p>
+            </article>
+
+            <article class="service-card card">
+              <h3 class="service-card__title">Soluciones low-code</h3>
+              <p class="service-card__text">
+                Aceleramos la entrega de aplicaciones con plataformas low-code cuando encaja el caso,
+                sin sacrificar calidad ni integración con sus sistemas existentes.
+              </p>
+              <p class="service-card__benefit">
+                <strong>Beneficio:</strong> prototipos y MVPs en semanas, equipos de negocio más
+                autónomos con gobierno TI adecuado.
+              </p>
+            </article>
+          </div>
+
+          <p class="section__cta">
+            ¿Quiere profundizar en cómo aplicamos esto a su contexto?
+            <a href="#contacto">Escríbanos</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Nosotros -->
+      <section class="section" id="nosotros" aria-labelledby="nosotros-title">
+        <div class="container about">
+          <header class="section__head">
+            <h2 id="nosotros-title">Nosotros</h2>
+            <p class="section__intro">
+              Trabajamos con transparencia, excelencia técnica y mirada de negocio.
+            </p>
+          </header>
+
+          <div class="about__grid">
+            <article class="about-block card">
+              <h3>Misión</h3>
+              <p>
+                Acompañar a organizaciones en su transformación digital con soluciones de software
+                sólidas, escalables y centradas en las personas, generando valor medible y sostenible.
+              </p>
+            </article>
+            <article class="about-block card">
+              <h3>Visión</h3>
+              <p>
+                Ser un referente regional en consultoría y desarrollo de software, reconocidos por la
+                calidad de nuestras entregas, la confianza de nuestros clientes y la innovación
+                responsable.
+              </p>
+            </article>
+            <article class="about-block about-block--wide card">
+              <h3>Valores y filosofía</h3>
+              <p>
+                Creemos en el trabajo colaborativo, la mejora continua y la ética profesional.
+                Priorizamos la claridad en la comunicación, la seguridad por diseño y la sostenibilidad
+                técnica: código y arquitectura que su equipo pueda mantener y hacer evolucionar.
+              </p>
+              <ul class="values-list">
+                <li>Integridad y compromiso con resultados</li>
+                <li>Aprendizaje constante y adaptación</li>
+                <li>Respeto por las personas usuarias y por los equipos cliente</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section class="section section--alt section--contact" id="contacto" aria-labelledby="contacto-title">
+        <div class="container contact">
+          <header class="section__head">
+            <h2 id="contacto-title">Contáctenos</h2>
+            <p class="section__intro">
+              Complete el formulario y nos pondremos en contacto a la brevedad. También puede
+              comunicarse por los medios indicados.
+            </p>
+          </header>
+
+          <div class="contact__grid">
+            <div class="contact__info card">
+              <h3 class="contact__info-title">Información de contacto</h3>
+              <address class="contact__address">
+                <strong>Dirección física</strong><br />
+                Av. Providencia 1234, Oficina 601<br />
+                Providencia, Santiago<br />
+                Chile
+              </address>
+              <p class="contact__line">
+                <strong>Teléfono:</strong>
+                <a href="tel:+56212345678">+56 2 1234 5678</a>
+              </p>
+              <p class="contact__line">
+                <strong>Correo electrónico:</strong>
+                <a href="mailto:info@coningenio.cl">info@coningenio.cl</a>
+              </p>
+              <p class="contact__line">
+                <strong>Sitio web:</strong>
+                <a href="https://www.coningenio.cl" rel="noopener noreferrer">www.coningenio.cl</a>
+              </p>
+            </div>
+
+            <div class="contact__form-wrap">
+              <form class="contact-form card" id="contactForm" novalidate>
+                <div class="form-row">
+                  <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    autocomplete="name"
+                    required
+                    minlength="2"
+                    maxlength="120"
+                    aria-required="true"
+                    aria-describedby="err-nombre"
+                  />
+                  <span class="field-error" id="err-nombre" role="alert"></span>
+                </div>
+
+                <div class="form-row">
+                  <label for="email">Correo electrónico <span aria-hidden="true">*</span></label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    maxlength="254"
+                    aria-required="true"
+                    aria-describedby="err-email"
+                  />
+                  <span class="field-error" id="err-email" role="alert"></span>
+                </div>
+
+                <div class="form-row">
+                  <label for="telefono">Teléfono (opcional)</label>
+                  <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    autocomplete="tel"
+                    maxlength="30"
+                    pattern="[0-9+()\\-\\s]{7,30}"
+                    aria-describedby="hint-telefono err-telefono"
+                  />
+                  <span class="field-hint" id="hint-telefono">Solo números, espacios y + - ( )</span>
+                  <span class="field-error" id="err-telefono" role="alert"></span>
+                </div>
+
+                <div class="form-row">
+                  <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+                  <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    required
+                    minlength="10"
+                    maxlength="2000"
+                    aria-required="true"
+                    aria-describedby="err-mensaje"
+                  ></textarea>
+                  <span class="field-error" id="err-mensaje" role="alert"></span>
+                </div>
+
+                <div class="form-row form-row--check">
+                  <input type="checkbox" id="privacidad" name="privacidad" required aria-describedby="err-privacidad" />
+                  <label for="privacidad">
+                    Acepto el tratamiento de mis datos para responder esta consulta.
+                    <span aria-hidden="true">*</span>
+                  </label>
+                  <span class="field-error field-error--block" id="err-privacidad" role="alert"></span>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--full">Enviar consulta</button>
+
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer__brand">&copy; <span id="year"></span> ConIngenio. Todos los derechos reservados.</p>
+        <p class="footer__meta">
+          <a href="https://www.coningenio.cl" rel="noopener noreferrer">www.coningenio.cl</a>
+          ·
+          <a href="mailto:info@coningenio.cl">info@coningenio.cl</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
